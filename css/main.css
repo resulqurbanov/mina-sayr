@@ -1,0 +1,520 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .nav_logo i {
+  display: none;
+}
+nav .nav_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+nav .nav_section .nav_res1 {
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav_section a {
+  color: black;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 30px;
+  font-style: bold;
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 760px) {
+  nav .nav_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .nav_logo i {
+    display: block;
+    margin-right: 30px;
+  }
+  nav .nav_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .nav_section .nav_res1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  nav .nav_section a {
+    color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 30px;
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(217, 217, 217);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .son {
+  width: 80%;
+}
+footer .son .son_noqte {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer .son .son_noqte img {
+  width: 70px;
+}
+footer .son .son_noqte ul {
+  display: flex;
+  flex-direction: row;
+}
+footer .son .son_noqte ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+footer .son .icon {
+  margin-left: 290px;
+  margin-top: 30px;
+}
+footer .son .icon i {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 760px) {
+  footer {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .son {
+    width: 80%;
+  }
+  footer .son .son_noqte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  footer .son .son_noqte img {
+    width: 150px;
+  }
+  footer .son .son_noqte ul {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .son .son_noqte ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  footer .son .icon {
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+  footer .son .icon i {
+    font-size: 30px;
+  }
+}
+.ilk_hisse {
+  background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Rectangle-YZ9P6kWjMnUBNL6W.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.ilk_hisse .basliq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.ilk_hisse .basliq h1 {
+  font-size: 100px;
+  color: white;
+}
+.ilk_hisse .basliq h3 {
+  font-size: 30px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ilk_hisse .basliq button {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+  .basliq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .basliq h1 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+  }
+  .basliq h3 {
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .basliq button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+.bestsellers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.bestsellers h2 {
+  font-size: 50px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  color: rgb(78, 3, 78);
+}
+.bestsellers .cards {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.bestsellers .cards .card {
+  flex-wrap: nowrap;
+  width: 25%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bestsellers .cards .card h5 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(78, 3, 78);
+}
+.bestsellers .cards .card p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: rgb(78, 3, 78);
+}
+.bestsellers button {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  border-color: rgb(78, 3, 78);
+}
+
+@media only screen and (max-width: 760px) {
+  .bestsellers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bestsellers h2 {
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: rgb(78, 3, 78);
+  }
+  .bestsellers .cards {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bestsellers .cards .card {
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .bestsellers .cards .card h5 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(78, 3, 78);
+  }
+  .bestsellers .cards .card p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(78, 3, 78);
+  }
+}
+.decor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Untitled-AzGRJwMK6BHxZypJ.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.decor h1 {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+.decor p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: white;
+}
+.decor button {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  color: rgb(78, 3, 78);
+}
+
+.about_card {
+  padding-top: 80px;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.about_card .ab_card img {
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+.about_card .ab_card h4 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(78, 3, 78);
+}
+.about_card .ab_card p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: rgb(78, 3, 78);
+}
+.about_card .ab_card button {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  border-color: rgb(78, 3, 78);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 760px) {
+  .about_card {
+    padding-top: 80px;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .about_card .ab_card {
+    max-width: 450px;
+  }
+  .about_card .ab_card img {
+    flex-wrap: nowrap;
+    padding: 10px;
+  }
+  .about_card .ab_card h4 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(78, 3, 78);
+  }
+  .about_card .ab_card p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(78, 3, 78);
+  }
+  .about_card .ab_card button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    border-color: rgb(78, 3, 78);
+    cursor: pointer;
+  }
+}
+.sign_up {
+  background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Frame-AGBpDkZaG5cRpbaw.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.sign_up h1 {
+  font-size: 80px;
+  color: white;
+  margin-bottom: 40px;
+}
+.sign_up input {
+  width: 300px;
+  height: 50px;
+  opacity: 0.8;
+  border: 0;
+  margin-bottom: 30px;
+}
+.sign_up button {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+  .sign_up {
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Frame-AGBpDkZaG5cRpbaw.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .sign_up h1 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .sign_up input {
+    width: 300px;
+    height: 50px;
+    opacity: 0.8;
+    border: 0;
+    margin-bottom: 30px;
+  }
+  .sign_up button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+.follow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.follow h1 {
+  font-size: 80px;
+  color: rgb(78, 3, 78);
+  margin-top: 50px;
+}
+.follow .sekiller {
+  display: flex;
+  flex-direction: row;
+}
+.follow .sekiller img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 400px;
+  max-height: 400px;
+  padding: 20px;
+}
+.follow a {
+  font-size: 26px;
+}
+
+@media only screen and (max-width: 760px) {
+  .follow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .follow h1 {
+    font-size: 55px;
+    color: rgb(78, 3, 78);
+    margin-top: 50px;
+  }
+  .follow .sekiller {
+    display: flex;
+    flex-direction: column;
+  }
+  .follow .sekiller img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .follow a {
+    font-size: 26px;
+  }
+}/*# sourceMappingURL=main.css.map */
