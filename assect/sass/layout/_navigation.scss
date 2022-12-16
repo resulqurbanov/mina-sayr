@@ -1,179 +1,206 @@
 nav {
-    width: 100%;
-    height: 80px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    position: fixed;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 2;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 2;
 
-    .nav_logo {
-   
-        .fa-bars {
-            color: rgb(0, 0, 0);
-            font-size: 30px;
-            cursor: pointer;
-            display: none;
-            margin-right: 30px;
-          }
-  
-          .fa-x {
-            color: red;
-            display: none;
-            font-size: 30px;
-            cursor: pointer;
-          }
-        .navbar_fixed {
-            width: 100%;
-            height: 30vh;
-            position: fixed;
-            background: rgb(0, 0, 0);
-            left: 0;
-            bottom: 0;
-            display: none;
-            opacity: 0.9;
-            ul{
-              li{
-                color: rgb(0, 0, 0);
-                margin-top: 50px;
-                margin-left: 30px;
-                margin-bottom: 50px;
-              }
-            }
+  .nav_logo {
+    .fa-bars {
+      color: rgb(0, 0, 0);
+      font-size: 30px;
+      cursor: pointer;
+      display: none;
+      margin-right: 30px;
+    }
+
+    .fa-x {
+      color: rgb(0, 0, 0);
+      display: none;
+      font-size: 30px;
+      cursor: pointer;
+    }
+    .navbar_fixed {
+      width: 100%;
+      height: 30vh;
+      position: fixed;
+      background: rgb(255, 255, 255);
+      left: 0;
+      top: 80px;
+      display: none;
+      opacity: 0.9;
+      ul {
+        li {
+          color: rgb(0, 0, 0);
+          margin-top: 20px;
+          margin-left: 30px;
+          margin-bottom: 20px;
         }
+      }
+    }
+  }
 
+  .nav_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+
+    .nav_res1 {
+      display: block;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      text-align: center;
+
+      a {
+        font-size: 30px;
+        text-decoration: none;
+        
+      }
+
+      i {
+        background-color: #fff;
+        transform: rotate(0deg);
+        margin-left: 5px;
+        margin-right: 10px;
+        height: 100%;
+      }
+      .droptown {
+        display: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        i {
+          transform: rotate(-180deg);
+          transition: 0.5s;
+          text-decoration: none;
+        }
+      }
+    }
+
+    a {
+      color: black;
+      margin-left: 15px;
+      margin-right: 15px;
+      font-size: 30px;
+      font-style: bold;
+      display: flex;
+      flex-direction: row;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .nav_logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .fa-bars {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+        margin-right: 30px;
+      }
+
+      .fa-x {
+        color: rgb(0, 0, 0);
+        display: none;
+        font-size: 30px;
+        cursor: pointer;
+        margin-right: 5px;
+      }
+      .navbar_fixed {
+        width: 100%;
+        height: 40vh;
+        position: fixed;
+        background: rgb(255, 255, 255);
+        left: 0;
+        top: 80px;
+        display: none;
+        opacity: 0.9;
+        ul {
+           display: flex;
+           align-items: flex-end;
+           flex-direction: column;
+           padding: 0 30px;
+          li {
+            color: rgb(0, 0, 0);
+            margin-top: 15px;
+            margin-right: 0;
+            margin-bottom: 15PX;
+            right: 0;
+          }
+        }
+      }
     }
 
     .nav_section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .nav_res1 {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        display: none;
+      }
 
-        .nav_res1 {
-            display: block;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-
-            a {
-                font-size: 30px;
-                text-decoration: none;
-            }
-
-            i {
-                background-color: #fff;
-                transform: rotate(0deg);
-                margin-left: 5px;
-                margin-right: 10px;
-            }
-            .droptown{
-                display: none;
-            }
-
-            a:hover {
-                text-decoration: underline; 
-                i{
-                    transform: rotate(-180deg);
-                    transition: 0.5s;
-                    text-decoration: none;
-                 
-                }
-                .droptown{
-                    display: block;
-                }
-            }
-
-      
-        }
-
-        a {
-            color: black;
-            margin-left: 15px;
-            margin-right: 15px;
-            font-size: 30px;
-            font-style: bold;
-            display: flex;
-            flex-direction: row;
-        }
-        a:hover{
-            text-decoration: underline; 
-        }
-
+      a {
+        color: black;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 30px;
+        font-style: bold;
+        display: flex;
+        flex-direction: row;
+      }
     }
+  }
+}
+#aboutandicon{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  .forsusta:hover{
+    text-decoration: underline;
+  }
 
-    @media only screen and (max-width: 760px) {
-        .nav_logo {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-
-         
-         
-            .fa-bars {
-                color: rgb(0, 0, 0);
-                font-size: 30px;
-                cursor: pointer;
-                display: block;
-                margin-right: 30px;
-              }
-      
-              .fa-x {
-                color: red;
-                display: none;
-                font-size: 30px;
-                cursor: pointer;
-              }
-            .navbar_fixed {
-                width: 100%;
-                height: 30vh;
-                position: fixed;
-                background: rgb(0, 0, 0);
-                left: 0;
-                bottom: 0;
-                display: none;
-                opacity: 0.9;
-                ul{
-                  li{
-                    color: rgb(0, 0, 0);
-                    margin-top: 50px;
-                    margin-left: 30px;
-                    margin-bottom: 50px;
-                  }
-                }
-            }
-    
-        }
-
-        .nav_section {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-
-            .nav_res1 {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                display: none;
-            }
-
-            a {
-                color: black;
-                margin-left: 15px;
-                margin-right: 15px;
-                font-size: 30px;
-                font-style: bold;
-                display: flex;
-                flex-direction: row;
-            }
-
-        }
+  .sustaclasi{
+    position: absolute;
+    top: 50px;
+    background-color: #fff;
+    padding: 0px;
+    height: 0;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  &:hover{
+    .sustaclasi{
+      padding: 10px;
+      height: auto;
+      overflow: hidden;
     }
+  }
 }

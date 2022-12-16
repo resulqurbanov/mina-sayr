@@ -12,73 +12,147 @@
 </head>
 <body>
     <header>
-        <nav>
-         
-          <div  class="nav_logo"> 
-            <i id="hamburgerX" class="fa-solid fa-x"></i>
-            <i id="hamburgerid" class="fa-solid fa-bars"></i>
+      <nav>
+        <div class="nav_logo">
+          <i id="hamburgerX" class="fa-solid fa-x"></i>
+          <i id="hamburgerid" class="fa-solid fa-bars"></i>
+          <a href="./index.html">
             <img
               src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=64,fit=crop/minattnvs/MINA-Yg2GZekJLlIEw2GR.png"
-              alt="" />
-              <div class="navbar_fixed">
-                <ul>
-                  <li><a href="./shop.html">Shop</a></li>
-                  <li><a href="./about.html">About</a></li>
-                  <li><a href="./sustainability.html">Sustainability</a></li>
-                </ul>
-              </div>
-          </div>
-          <div>
-            <ul class="nav_section">
-              <div class="nav_res1">
-                <a href="./shop.html">
-                  <li>Shop</li>
-                </a>
-                <!-- dropdown s -->
-                <a href="./about.html">
-                  <li>About</li>
-                  <i class="fa-solid fa-caret-down"></i>
-                </a>
-                <ul class="droptown">
-                  <li>
-                    Sustainability
-                  </li>
-                </ul>
-                <!-- dropdown e -->
-    
-                <a href="./contact.html">
-                  <li>Contact</li>
-                </a>
-              </div>
-              <div>
-                <a href="./card.html"><i class="fa-solid fa-bag-shopping"></i>
-                  <li>Card(0)</li>
-                </a>
-              </div>
+              alt=""
+          /></a>
+          <div class="navbar_fixed">
+            <ul>
+              <li><a href="./shop.html">Shop</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./sustainability.html">Sustainability</a></li>
             </ul>
           </div>
-        </nav>
+        </div>
+       
+          <ul class="nav_section">
+            <div class="nav_res1">
+              <a href="./shop.html">
+                <li>Shop</li>
+              </a>
+              <!-- dropdown s -->
+              <div id="aboutandicon">
+                <a href="./about.html" class="forsusta">
+                  <li >About <i class="fa-solid fa-caret-down"></i>
+                    <a href="./sustainability.html" class="sustaclasi">Sustainability</a>
+                  </li>
+                  
+                </a>
+              </div>
+             
+              <!-- dropdown e -->
+
+              <a href="./contact.html">
+                <li>Contact</li>
+              </a>
+            </div>
+            <div>
+              <a href="./card.html"
+                ><i class="fa-solid fa-bag-shopping"></i>
+                <li>Card(0)</li>
+              </a>
+            </div>
+          </ul>
+        
+      </nav>
       </header>
       <main>
-      <section class="shop_main">
-        <h1>Shop</h1>
-      </section>
-      <section>
-        <div>
-            <div>
-                <svg height="17" width="24" viewBox="0 0 24 17" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor" fill-rule="nonzero"><path d="M19.121 12.864a.5.5 0 0 1 .707-.707l4 4a.5.5 0 0 1-.707.707l-4-4z"></path><path d="M14.5 14a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13zm0 1a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15zM5.5 1a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1h5zM4.5 9a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1h4zM5.5 13a.5.5 0 1 1 0 1h-5a.5.5 0 1 1 0-1h5zM4.5 5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1h4z"></path></g></svg>
-                <a href="">Search Products</a>
+        <!-- section_header start-->
+        <section class="section_header">
+            <h2>Shop</h2>
+        </section>
+        <!-- section_header end -->
+        <!-- shop section start -->
+        <section class="shop_card_section">
+          <div class="linkler">
+            <div class="l1">
+              <svg height="17" width="24" viewBox="0 0 24 17" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor" fill-rule="nonzero"><path d="M19.121 12.864a.5.5 0 0 1 .707-.707l4 4a.5.5 0 0 1-.707.707l-4-4z"></path><path d="M14.5 14a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13zm0 1a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15zM5.5 1a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1h5zM4.5 9a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1h4zM5.5 13a.5.5 0 1 1 0 1h-5a.5.5 0 1 1 0-1h5zM4.5 5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1h4z"></path></g></svg>
+              <a href="">Search Products</a>
             </div>
-            <div>
-                <svg width="16" height="20" viewBox="0 0 16 20" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M1 5v13.006c0 .548.446.994.994.994h12.012c.548 0 .994-.446.994-.994V5H1zm15-1v14.006c0 1.1-.895 1.994-1.994 1.994H1.994C.894 20 0 19.105 0 18.006V4h16z" fill="currentColor" fill-rule="nonzero"></path><path d="M5 7s-.005.5-.504.5C3.996 7.5 4 7 4 7V4c0-2.21 1.79-4 4-4s4 1.79 4 4v3s-.002.5-.5.5S11 7 11 7V4c0-1.657-1.343-3-3-3S5 2.343 5 4v3z" fill="currentColor"></path></g></svg>
-                <a href="">Shooping Bag</a>
+            <div class="l2">
+              <svg width="16" height="20" viewBox="0 0 16 20" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M1 5v13.006c0 .548.446.994.994.994h12.012c.548 0 .994-.446.994-.994V5H1zm15-1v14.006c0 1.1-.895 1.994-1.994 1.994H1.994C.894 20 0 19.105 0 18.006V4h16z" fill="currentColor" fill-rule="nonzero"></path><path d="M5 7s-.005.5-.504.5C3.996 7.5 4 7 4 7V4c0-2.21 1.79-4 4-4s4 1.79 4 4v3s-.002.5-.5.5S11 7 11 7V4c0-1.657-1.343-3-3-3S5 2.343 5 4v3z" fill="currentColor"></path></g></svg>
+               <a href="">Shopping Bag</a>
             </div>
-            <div>
-                <a href="">REFINE BY</a>
-                <a href="">SORT BY</a>
+          </div>
+          <div class="icon_link">
+            <a href="">REFINE BY<i class="fa-solid fa-chevron-down"></i></a>
+            
+            <a href="">SORT BY <i class="fa-solid fa-chevron-down"></i></a>
+           
+          </div>
+            <div class="shop_card">
+                <div class="card">
+                    <div class="card_img">
+                        <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62087280/2339697136.jpg" alt="">
+                    </div>
+                    <h3>'Balance' Vase</h3>
+                    <p>$79.99</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62087280/2339705788.jpg" alt="">
+                    </div>
+                    <h3>'Bulb' Vase</h3>
+                    <p>$39.99</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62087280/2346701966.jpg" alt="">
+                    </div>
+                    <h3>'Drop' Vase</h3>
+                    <p>$49.99</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62087280/2339705905.jpg" alt="">
+                    </div>
+                    <h3>'Mango' Vase</h3>
+                    <p>$49.99</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62087280/2339706636.jpg" alt="">
+                    </div>
+                    <h3>'Wave' Vase</h3>
+                    <p>$69.99</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62087280/2339708814.jpg" alt="">
+                    </div>
+                    <h3>'Sun' Vase</h3>
+                    <p>$69.99</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62087280/2339706864.jpg" alt="">
+                    </div>
+                    <h3>'Bubble' Flowerpot</h3>
+                    <p>$49.99</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62087280/2339709347.jpg" alt="">
+                    </div>
+                    <h3>'Binocular' Vase</h3>
+                    <p>$49.99</p>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62087280/2339664459.jpg" alt="">
+                    </div>
+                    <h3>'Candy' Flowerpot</h3>
+                    <p>$59.99</p>
+                </div>
+
             </div>
-        </div>
-      </section>
+        </section>
+        <!-- shop section end -->
     </main>
     <footer>
         <div class="son">
@@ -102,5 +176,7 @@
           </div>
         </div>
       </footer>
+      <script src="./assect/js/main.js"></script>
+    </body>
 </body>
 </html>

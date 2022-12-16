@@ -1,0 +1,175 @@
+.sustainabilityy {
+  width: 100%;
+  background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Frame-m6LKEnXEpDfX8lgk.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 49vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 80px;
+    color: white;
+  }
+}
+.sus_basliq {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  p {
+    font-size: 30px;
+    width: 555px;
+    text-align: center;
+    color: rgb(78, 3, 78);
+  }
+}
+.ethos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(205, 205, 205);
+
+  .e2 {
+    h2 {
+      font-size: 40px;
+      color: rgb(78, 3, 78);
+      margin-top: 70px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 20px;
+      max-width: 500px;
+      color: rgb(78, 3, 78);
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+.materials {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(228, 128, 6);
+
+  .m2 {
+    h2 {
+      font-size: 40px;
+      color: rgb(255, 255, 255);
+      margin-top: 70px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 20px;
+      max-width: 500px;
+      color: rgb(255, 255, 255);
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+@media only screen and (max-width: 760px) {
+  .sustainability {
+    width: 100%;
+    height: 75vh;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Frame-m6LKEnXEpDfX8lgk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 49vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    h1 {
+      font-size: 90px;
+      color: white;
+    }
+  }
+  .sus_basliq {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    p {
+      font-size: 30px;
+      width: 555px;
+      text-align: center;
+      color: rgb(78, 3, 78);
+    }
+  }
+  .ethos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(205, 205, 205);
+    .e1 {
+      img {
+        max-width: 450px;
+        width: 100%;
+      }
+    }
+    .e2 {
+      h2 {
+        font-size: 40px;
+        color: rgb(78, 3, 78);
+        margin-top: 70px;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 20px;
+        max-width: 500px;
+        color: rgb(78, 3, 78);
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .materials {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(228, 128, 6);
+    .m1 {
+      display: flex;
+      justify-content: center;
+
+      flex-direction: column;
+    }
+
+    .m2 {
+      align-items: flex-start;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      h2 {
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        margin-top: 70px;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 20px;
+        max-width: 500px;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 540px) {
+  .sustainability {
+    h1 {
+      font-size: 60px;
+    }
+  }
+}

@@ -1,0 +1,126 @@
+.section_header {
+  width: 100%;
+  background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/dd-d95eByKQX2CoQJ4L.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 66vh;
+  h2 {
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+    font-size: 80px;
+  }
+}
+.shop_card_section {
+  width: 100%;
+  margin: 50px 0;
+  .linkler {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 70px;
+    .l1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      &:hover {
+        color: rgb(60, 60, 150);
+       }
+      a {
+        color: rgb(95, 95, 102);
+        margin-top: 10px;
+        &:hover {
+          color: rgb(60, 60, 150);
+         }
+      }
+    }
+    .l2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+      &:hover {
+        color: rgb(60, 60, 150);
+       }
+      a {
+        color: rgb(95, 95, 102);
+        margin-top: 10px;
+        &:hover {
+          color: rgb(60, 60, 150);
+         }
+      }
+    }
+  }
+  .icon_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 1600px;
+    margin-bottom: 10px;
+    a{
+      color: rgb(95, 95, 102);
+      &:hover {
+       color: rgb(60, 60, 150);
+      }
+       
+      
+        i {
+      margin-left: 7px;
+      margin-right: 5px;
+    }
+    }
+  
+  }
+  .shop_card {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .card {
+      width: 386px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 30px;
+      cursor: pointer;
+      margin-bottom: 30px;
+      .card_img {
+        width: 386px;
+        height: 386px;
+        overflow: hidden;
+        img {
+          width: 386px;
+          height: 386px;
+          transition: all 1.8s;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+      h3 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 28px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .shop_card_section {
+    .shop_card {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

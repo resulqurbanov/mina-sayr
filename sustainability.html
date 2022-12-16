@@ -12,55 +12,90 @@
 </head>
 <body>
     <header>
-        <nav>
-         
-          <div  class="nav_logo"> 
-            <i id="hamburgerX" class="fa-solid fa-x"></i>
-            <i id="hamburgerid" class="fa-solid fa-bars"></i>
+      <nav>
+        <div class="nav_logo">
+          <i id="hamburgerX" class="fa-solid fa-x"></i>
+          <i id="hamburgerid" class="fa-solid fa-bars"></i>
+          <a href="./index.html">
             <img
               src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=64,fit=crop/minattnvs/MINA-Yg2GZekJLlIEw2GR.png"
-              alt="" />
-              <div class="navbar_fixed">
-                <ul>
-                  <li><a href="./shop.html">Shop</a></li>
-                  <li><a href="./about.html">About</a></li>
-                  <li><a href="./sustainability.html">Sustainability</a></li>
-                </ul>
-              </div>
-          </div>
-          <div>
-            <ul class="nav_section">
-              <div class="nav_res1">
-                <a href="./shop.html">
-                  <li>Shop</li>
-                </a>
-                <!-- dropdown s -->
-                <a href="./about.html">
-                  <li>About</li>
-                  <i class="fa-solid fa-caret-down"></i>
-                </a>
-                <ul class="droptown">
-                  <li>
-                    Sustainability
-                  </li>
-                </ul>
-                <!-- dropdown e -->
-    
-                <a href="./contact.html">
-                  <li>Contact</li>
-                </a>
-              </div>
-              <div>
-                <a href="./card.html"><i class="fa-solid fa-bag-shopping"></i>
-                  <li>Card(0)</li>
-                </a>
-              </div>
+              alt=""
+          /></a>
+          <div class="navbar_fixed">
+            <ul>
+              <li><a href="./shop.html">Shop</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./sustainability.html">Sustainability</a></li>
             </ul>
           </div>
-        </nav>
+        </div>
+       
+          <ul class="nav_section">
+            <div class="nav_res1">
+              <a href="./shop.html">
+                <li>Shop</li>
+              </a>
+              <!-- dropdown s -->
+              <div id="aboutandicon">
+                <a href="./about.html" class="forsusta">
+                  <li >About <i class="fa-solid fa-caret-down"></i>
+                    <a href="./sustainability.html" class="sustaclasi">Sustainability</a>
+                  </li>
+                  
+                </a>
+              </div>
+             
+              <!-- dropdown e -->
+
+              <a href="./contact.html">
+                <li>Contact</li>
+              </a>
+            </div>
+            <div>
+              <a href="./card.html"
+                ><i class="fa-solid fa-bag-shopping"></i>
+                <li>Card(0)</li>
+              </a>
+            </div>
+          </ul>
+      </nav>
       </header>
       <main>
-        <section></section>
+        <section class="sustainabilityy">
+<h1>Sustainability</h1>
+        </section>
+          <!-- basliq start -->
+        <section class="sus_basliq">
+          <p>We care about our planet. For this reason, Mina aims to be operating sustainably and ethically at every level.</p>
+      </section>
+      <!-- basliq end -->
+      <!-- ethos start -->
+      <section class="ethos">
+          <div class="e1">
+              <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=883,fit=crop/minattnvs/ll-A1aynE83WJc9WylX.png"
+                  alt="">
+          </div>
+          <div class="e2">
+              <h2>Working Ethos</h2>
+              <p>For Alex and Laura, planning ahead is a central component of sustainable design. Work begins with sketches of ideas before any clay is modeled. Fully conceptualizing and refining each design beforehand helps us to reduce material waste.</p>
+              <p>We strive to work collaboratively at every stage. Our team efforts minimize energy usage in the studio.</p>
+          </div>
+
+      </section>
+      <!-- ethos end -->
+      <!-- Materials start -->
+      <section class="materials">
+          <div class="m1">
+              <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=594,fit=crop/minattnvs/pp-AoP0LMM1VPTawJL6.png" alt="">
+          </div>
+          <div class="m2">
+              <h2>Materials</h2>
+              <p>Surrounded by beautiful landscapes, it is only right that our studio is stocked with only the finest local materials that haven't had to travel far to get to us. Our clay is as locally sourced as possible for every product.</p>
+              <p>We ensure that the paint we use on our products is low-VOC and never washed into local waterways during production.</p>
+             
+          </div>
+      </section>
+      <!-- Materials end -->
       </main>
       <footer>
         <div class="son">
@@ -84,5 +119,7 @@
           </div>
         </div>
       </footer>
+      <script src="./assect/js/main.js"></script>
+    </body>
 </body>
 </html>

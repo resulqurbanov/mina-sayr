@@ -1,0 +1,189 @@
+.about_main {
+  background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/minattnvs/Frame-YanWlX24wOIg2vwL.png");
+  width: 100%;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  h1 {
+    font-size: 90px;
+    color: white;
+  }
+}
+.ab_basliq {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  p {
+    font-size: 30px;
+    width: 555px;
+    text-align: center;
+    color: rgb(78, 3, 78);
+  }
+}
+.friends {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(205, 205, 205);
+
+  .f2 {
+    h2 {
+      font-size: 40px;
+      color: rgb(78, 3, 78);
+      margin-top: 70px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 20px;
+      max-width: 500px;
+      color: rgb(78, 3, 78);
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+.sustainability {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(255, 163, 50);
+
+  .s2 {
+    h2 {
+      font-size: 40px;
+      color: rgb(78, 3, 78);
+      margin-top: 70px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 20px;
+      max-width: 500px;
+      color: rgb(78, 3, 78);
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    button {
+      width: 200px;
+      height: 60px;
+      font-size: 20px;
+      margin-bottom: 40px;
+      border: 0;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: rgb(194, 193, 192);
+    }
+  }
+}
+@media only screen and (max-width: 760px) {
+  .about_main {
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/minattnvs/Frame-YanWlX24wOIg2vwL.png");
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    h1 {
+      font-size: 90px;
+      color: white;
+    }
+  }
+  .ab_basliq {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    p {
+      font-size: 30px;
+      width: 555px;
+      text-align: center;
+      color: rgb(78, 3, 78);
+    }
+  }
+  .friends {
+    background-color: rgb(205, 205, 205);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .f1 {
+      img {
+        max-width: 450px;
+        width: 100%;
+      }
+    }
+    .f2 {
+      h2 {
+        font-size: 40px;
+        color: rgb(78, 3, 78);
+        margin-top: 70px;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 20px;
+        max-width: 500px;
+        color: rgb(78, 3, 78);
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .sustainability {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(255, 163, 50);
+    align-items: center;
+    .s1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .s2 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      h2 {
+        font-size: 40px;
+        color: rgb(78, 3, 78);
+        margin-top: 70px;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 20px;
+        max-width: 500px;
+        color: rgb(78, 3, 78);
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      button {
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+        margin-bottom: 40px;
+        border: 0;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: rgb(194, 193, 192);
+      }
+    }
+  }
+}
