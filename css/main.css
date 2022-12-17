@@ -1009,6 +1009,28 @@ footer .son .icon i {
   color: white;
 }
 
+.imput_main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.imput_main .input_basliq h3 {
+  font-size: 40px;
+}
+.imput_main .inputs {
+  display: flex;
+  flex-direction: column;
+}
+.imput_main .inputs input {
+  width: 300px;
+  height: 50px;
+  opacity: 0.8;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+
 .sustainabilityy {
   width: 100%;
   background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Frame-m6LKEnXEpDfX8lgk.png");
@@ -1173,4 +1195,4 @@ footer .son .icon i {
   .sustainability h1 {
     font-size: 60px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
