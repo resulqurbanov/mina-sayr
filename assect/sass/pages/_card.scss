@@ -1,0 +1,234 @@
+.shop_main {
+    width: 100%;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/dd-d95eByKQX2CoQJ4L.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 66vh;
+
+    h1 {
+        text-align: center;
+        padding-top: 180px;
+        color: #fff;
+        font-size: 80px;
+    }
+}
+
+.card_section {
+    width: 100%;
+    margin-top: 100px;
+    height: 100vh;
+
+    .linkler {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 70px;
+
+        .l1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+
+            &:hover {
+                color: rgb(60, 60, 150);
+            }
+
+            a {
+                color: rgb(95, 95, 102);
+                margin-top: 10px;
+
+                &:hover {
+                    color: rgb(60, 60, 150);
+                }
+            }
+        }
+
+        .l2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+
+            &:hover {
+                color: rgb(60, 60, 150);
+            }
+
+            a {
+                color: rgb(95, 95, 102);
+                margin-top: 10px;
+
+                &:hover {
+                    color: rgb(60, 60, 150);
+                }
+            }
+        }
+    }
+
+    .link_alt {
+        width: 100;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        justify-content: flex-start;
+
+        .tire_kecid {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+
+            a,
+            p {
+                font-size: 17px;
+                margin: 5px 5px 5px 0;
+                color: rgb(159, 159, 159);
+            }
+        }
+    }
+
+    .satis_div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            width: 200px;
+            height: 60px;
+            font-size: 20px;
+            color: rgb(78, 3, 78);
+            margin-bottom: 40px;
+            margin-top: 20px;
+            border-color: rgb(78, 3, 78);
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(78, 3, 78);
+            color: rgb(255, 255, 255);
+        }
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .shop_main {
+        width: 100%;
+        background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/dd-d95eByKQX2CoQJ4L.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 66vh;
+
+        h1 {
+            text-align: center;
+            padding-top: 180px;
+            color: #fff;
+            font-size: 80px;
+        }
+    }
+
+    .card_section {
+        width: 100%;
+        margin-top: 100px;
+        height: 100vh;
+
+        .linkler {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            margin-bottom: 70px;
+
+            .l1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-right: 10px;
+
+                &:hover {
+                    color: rgb(60, 60, 150);
+                }
+
+                a {
+                    color: rgb(95, 95, 102);
+                    margin-top: 10px;
+
+                    &:hover {
+                        color: rgb(60, 60, 150);
+                    }
+                }
+            }
+
+            .l2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-left: 10px;
+
+                &:hover {
+                    color: rgb(60, 60, 150);
+                }
+
+                a {
+                    color: rgb(95, 95, 102);
+                    margin-top: 10px;
+
+                    &:hover {
+                        color: rgb(60, 60, 150);
+                    }
+                }
+            }
+        }
+
+        .link_alt {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+            justify-content: flex-start;
+
+            .tire_kecid {
+                display: flex;
+                flex-direction: row;
+
+                a,
+                p {
+                    font-size: 17px;
+                    margin: 5px 5px 5px 0;
+                    color: rgb(159, 159, 159);
+                }
+            }
+        }
+
+        .satis_div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                width: 200px;
+                height: 60px;
+                font-size: 20px;
+                color: rgb(78, 3, 78);
+                margin-bottom: 40px;
+                margin-top: 20px;
+                border-color: rgb(78, 3, 78);
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: rgb(78, 3, 78);
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}

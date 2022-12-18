@@ -15,24 +15,137 @@
 .imput_main{
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
   flex-direction: row;
+  margin-top: 70px;
+  margin-bottom: 70px;
   .input_basliq{
+    max-width: 100%;
     h3{
       font-size: 40px;
+      color: rgb(78, 3, 78);
+      margin-bottom: 20px;
+    }
+    p{
+      color: rgb(78, 3, 78);
+      margin-bottom: 8px;
+      width: 180px;
+    }
+    .im1{
+      margin-bottom: 80px;
     }
   }
   .inputs{
+    max-width: 100%;
     display: flex;
     flex-direction: column;
+    h3{
+      margin-bottom: 30px;
+      color: rgb(78, 3, 78);
+    }
    input {
     width: 300px;
     height: 50px;
     opacity: 0.8;
     margin-bottom: 30px;
+    margin-top: 5px;
     z-index: 1;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(226, 228, 230);
   } 
+  button{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    color: rgb(78, 3, 78);
+    margin-bottom: 40px;
+    
+border-color: rgb(78, 3, 78);
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(78, 3, 78);
+    color: rgb(255, 255, 255);
+  }
   }
   
+}
+@media only screen and (max-width: 760px) {
+  .contact{
+    width: 100%;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/kk-AVLnvEyZ8ehlnGNB.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 49vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-size: 60px;
+      color: white;
+    }
+}
+.imput_main{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  .input_basliq{
+    max-width: 100%;
+    margin-bottom: 70px;
+    h3{
+      font-size: 40px;
+      color: rgb(78, 3, 78);
+      margin-bottom: 20px;
+    }
+    p{
+      color: rgb(78, 3, 78);
+      margin-bottom: 8px;
+      width: 180px;
+    }
+    .im1{
+      margin-bottom: 80px;
+    }
+  }
+  .inputs{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    h3{
+      margin-bottom: 30px;
+      color: rgb(78, 3, 78);
+    }
+   input {
+    width: 250px;
+    height: 50px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    z-index: 1;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(226, 228, 230);
+  } 
+  button{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    color: rgb(78, 3, 78);
+    margin-bottom: 40px;
+    
+border-color: rgb(78, 3, 78);
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(78, 3, 78);
+    color: rgb(255, 255, 255);
+  }
+  }
+  
+}
 }
